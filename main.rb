@@ -20,7 +20,7 @@ set :port, 80
 
 post "/" do
   Response.create(
-    body: params["Body"]
+    body: params["Body"].downcase
   )
 
   return 200
