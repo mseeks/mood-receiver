@@ -1,5 +1,6 @@
-require "sinatra"
+require "active_record"
 require "pg"
+require "sinatra"
 
 db_config = {
   host:     ENV["DB_HOST"],
