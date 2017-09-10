@@ -1,3 +1,6 @@
+class Response < ActiveRecord::Base
+end
+
 class AddLegacyData < ActiveRecord::Migration[5.0]
   def change
     Response.create(body: "optimistic", created_at: "Fri, 18 Aug 2017 10:06:47 -0500")
