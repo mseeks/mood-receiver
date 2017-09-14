@@ -1,3 +1,5 @@
+require "google/cloud/language"
+
 class Response < ActiveRecord::Base
 end
 
